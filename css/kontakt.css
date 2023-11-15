@@ -1,0 +1,111 @@
+/* Kontakt-Seite */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(99, 176, 99);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../bilder/holzbrett.jpg);
+    background-size: contain;
+    height: 150px;
+    padding-left: 60px;
+    padding-right: 40px;
+    /* position: fixed;
+    top: 0;
+    width: 95%; */
+}
+header img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+header li a:hover{
+    cursor: pointer;
+    border: 2px solid rgb(82, 81, 81) ;
+    padding: 5px;
+    font-weight: 700;
+    background-image: url(../bilder/holzbrettdunkel.jpg);
+    background-size: contain;
+    color: white;
+}
+ 
+/* Hauptseite */
+
+main {
+    padding-left: 30px;
+    padding: 30px;
+    cursor: default;
+}
+
+.kontakt {
+    display: flex;
+    gap: 10px;
+   
+}
+
+.kontakt img {
+    width: 40px;
+    border: 1px solid black;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 150px;
+    border-top: 3px solid black;
+    
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    margin: 0px 100px;
+    padding: 20px 100px;
+    gap: 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    gap: 40px;
+    background-color: rgba(81, 143, 81, 0.9);
+    color: rgba(0, 0, 0, 1.0)
+}
+
+.logo img {
+    width: 30px;
+}
+
+.footerlist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    margin-left: 30px;
+    background-color: rgb(81, 143, 81);
+    padding: 20px;
+}
